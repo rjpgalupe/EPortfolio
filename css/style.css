@@ -1061,46 +1061,48 @@ a:hover {
 //--//-->   CONTACT
 ======================================*/
 
-.getInTouch form label,
-.getInTouch form textarea,
-.getInTouch form input {
-    margin-bottom: 10px;
-}
-
+/* Style the getInTouch form container */
 .getInTouch {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Style form labels */
 .getInTouch form label {
     display: block;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+    color: #333;
 }
 
+/* Style form input and textarea */
 .getInTouch form input,
 .getInTouch form textarea {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 5px;
     box-sizing: border-box;
-}
-
-.getInTouch form button {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
     font-size: 16px;
 }
 
+/* Style submit button */
+.getInTouch form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Style submit button on hover */
 .getInTouch form button:hover {
-    background-color: #45a049;
+    background-color: #0056b3;
 }
 
 .footer-paralax {
