@@ -1061,37 +1061,6 @@ a:hover {
 //--//-->   CONTACT
 ======================================*/
 
-/* Set the background color and text color for the form */
-.form-container {
-  background-color: #fff; /* Change to your preferred background color */
-  color: #4e4e4e; /* Change to your preferred text color */
-}
-
-/* Style the form fields */
-.form-field {
-  margin-bottom: 20px;
-}
-
-/* Style the form labels */
-.form-label {
-  color: #1e1e1e; /* Change to your preferred label color */
-}
-
-/* Style the form submit button */
-.form-submit-button {
-  background-color: #0078ff; /* Change to your preferred button color */
-  color: #fff; /* Change to your preferred text color */
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.5s ease-in-out;
-}
-
-.form-submit-button:hover {
-  background-color: #0056b3; /* Change to your preferred button hover color */
-}
-
 .footer-paralax {
   padding: 4rem 0 0 0;
 }
