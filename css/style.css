@@ -670,6 +670,15 @@ a:hover {
 /*======================================
 //--//-->   ABOUT
 ======================================*/
+.about-img {
+  max-width: 70%;
+  height: auto;
+}
+
+.col-md-6 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
